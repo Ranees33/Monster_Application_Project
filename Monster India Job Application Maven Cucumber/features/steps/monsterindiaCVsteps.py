@@ -70,7 +70,7 @@ def verifylastDate(context):
     time.sleep(4)
     lastupdate_verify = context.driver.find_element(By.XPATH, "//span[@class='last-update mt15']").text
     time.sleep(5)
-    assert "Last Updated on : 9 December 2022" in lastupdate_verify, "Last Updated Date Verified Not Success"
+    assert "Last Updated on : 20 December 2022" in lastupdate_verify, "Last Updated Date Verified Not Success"
     print("Last Updated Date Verified Success")
     time.sleep(4)
     context.driver.find_element(By.XPATH, "//div[@id='profileThemeDefault']/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/i[1]").click()
